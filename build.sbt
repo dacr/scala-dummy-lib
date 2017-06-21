@@ -1,14 +1,14 @@
 name := "scala-dummy-lib"
 
-version := "2017.2.27"
+version := "2017.6.21"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.2"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation" , "-feature", "-language:implicitConversions")
 
 libraryDependencies ++= Seq(
-  "org.slf4j"      %  "slf4j-api"   % "1.7.24",
-  "org.scalatest"  %% "scalatest"   % "3.0.1" % "test"
+  "org.slf4j"      %  "slf4j-api"   % "1.7.25",
+  "org.scalatest"  %% "scalatest"   % "3.0.3" % "test"
 )
 
 initialCommands in console := """
